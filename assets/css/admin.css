@@ -1,0 +1,70 @@
+#btp{
+    background-color: #D18787;
+    font-family: 'Quicksand', sans-serif;
+}
+  #textbt
+  {
+    font-family: 'Quicksand', sans-serif;
+    color:#D18787;
+  }
+  #colorrojo {
+    color:#D18787;
+  }
+  #text2bt
+  {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.5em;
+    color:#000000;
+  }
+  
+  
+  #sizebt
+  {
+    width: 18rem;
+  }
+
+  #subtitulo{
+    color: #243695;
+  }
+
+  #salto{
+    display: block !important;
+  }
+  #inline{
+    display: inline-block !important;
+  }
+  
+  #base {
+    
+    background-color: #E5E5E5;
+  }
+   #azul {
+     background-color: #94B4E4;
+   }
+
+   #parent {
+    display: flex;
+    align-content: space-around;
+    height: 250px;
+    }
+
+    #subrayado{
+      text-decoration: none;
+      text-decoration-color: none;
+      color: #000;
+      
+    }
+    #seleccion:hover{
+      color: greenyellow;
+      
+    }
+    #aladerecha{
+      text-align: right;
+    }
+    #centrado{
+      margin-left: 45px;
+    }
+
+    #disabled{
+      display: none;
+    }

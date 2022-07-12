@@ -1,0 +1,74 @@
+#loginbody{
+    margin:0;
+    padding:0;
+    height:100vh;
+    background: url(../images/maltiafondo.jpg) no-repeat center top;
+    background-size: cover;
+    font-family: Quicksand;
+}
+
+
+.login{
+    width: 320px;
+    height:420px;
+    background:#F4F4F4;
+    color:#722C2D;
+    top:50%;
+    left:50%;
+    position:absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    border-radius: 15px;
+}
+
+.login .avatarmaltia{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    position:absolute;
+    top:-50px;
+    left:calc(50% - 50px);
+}
+
+.login h1{
+    margin:0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.login label{
+    margin:0;
+    padding:0;
+    font-weight: bold;
+    display:block;
+}
+
+.login input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#inicon{
+    text-align: center;
+}
+
+/*.login input[type = "submit"]*/
+#loginmal{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #243695;
+    color: #FFF;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-block-start: 30px;
+
+    position:absolute;
+    width: 150px;
+    right: 85px;
+    text-align: center;
+    margin-top: 60px;
+    cursor: pointer;
+}
